@@ -29,3 +29,9 @@ def norm(a):
     magnitude = magnitude ** 0.5
     return magnitude
 
+def divide(a,b):
+    size = len(a)
+    s = []
+    for i in range(size):
+        s.append(a[i]/b)
+    return s
